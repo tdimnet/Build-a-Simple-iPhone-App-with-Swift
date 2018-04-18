@@ -37,15 +37,24 @@
                                     <action selector="showFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="bnk-nj-GVj"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhL-KX-aZS">
+                                <rect key="frame" x="20" y="160" width="118" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="jhL-KX-aZS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="140" id="3cc-oP-5x2"/>
+                            <constraint firstItem="jhL-KX-aZS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9en-sf-Ppq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5Pb-q1-cbl" secondAttribute="bottom" constant="80" id="9xg-qQ-Rgb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5Pb-q1-cbl" secondAttribute="trailing" constant="20" id="EYk-4K-KN1"/>
                             <constraint firstItem="n1P-hc-fMW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FYd-m4-eQ3"/>
                             <constraint firstItem="5Pb-q1-cbl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LPa-DM-8Vj"/>
                             <constraint firstItem="n1P-hc-fMW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ooz-mq-hFF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n1P-hc-fMW" secondAttribute="trailing" constant="20" id="Qrw-c5-xLa"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jhL-KX-aZS" secondAttribute="trailing" constant="20" symbolic="YES" id="Zhj-sY-PaL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
